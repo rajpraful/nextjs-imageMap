@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+@keyframes leaves {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animatedPointer {
+  position: absolute;
+  text-align: center;
+  background-color: $color-theme;
+  animation: leaves 3s infinite;
+}
+
+.order {
+  background-color: $color-primary;
+  width: 10rem;
+  color: $color-theme;
+}

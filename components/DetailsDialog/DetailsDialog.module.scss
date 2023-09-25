@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.dialogContainer {
+  height: 100%;
+}
+
+.dialogImageContainer {
+  background-color: $color-dialogBg;
+  padding: 13rem;
+  height: 100vh;
+}
+
+.dialogBackButton {
+  color: $color-theme;
+  border-color: $color-theme;
+  margin-right: 3rem;
+  padding: 1rem 3rem;
+}
+
+.dialogImage {
+  width: 45vw;
+  height: auto;
+  position: absolute;
+  top: 23%;
+  left: 450px;
+}
+
+.dialogClose {
+  position: absolute;
+  right: 200px;
+  top: 200px;
+}

@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.container {
+  position: fixed;
+  width: 100vw;
+  top: 42%;
+  z-index: 2;
+}
+
+.leftChevron, .rightChevron {
+  background-color: $color-chevronBackground;
+  width: 8vw;
+}
+
+.icon {
+  color: $color-secondary;
+  margin: auto;
+  font-size: 20rem;
+}

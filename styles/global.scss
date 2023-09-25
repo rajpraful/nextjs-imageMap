@@ -1,0 +1,52 @@
+@import "./variables.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+body {
+  background-color: $color-body;
+  color: $color-text;
+}
+
+.layout {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navicons {
+  z-index: 9000;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  button {
+    padding: 2rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-bottom: 3rem;
+  }
+}
+
+.testDot {
+  background-color: red;
+  padding: 10px;
+  position: absolute;
+  left: 3000px;
+  top: 2000px;
+}
+
+.image-gallery-svg {
+  height: auto !important;
+  width: 150px !important;
+}
+
+.image-gallery-bullet {
+  padding: 1rem !important;
+  margin: 0 1rem !important;
+}
+
+// .image-gallery-content .image-gallery-slide .image-gallery-image {
+//   max-height: calc(100vh - 200px) !important;
+// }
+// .image-gallery-thumbnail .image-gallery-thumbnail-image {
+//   height: 200px !important;
+//   width: auto;
+// }
