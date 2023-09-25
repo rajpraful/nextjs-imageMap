@@ -1,0 +1,27 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+.idea/
+.next/
+config.js
+.env
+public.env
+coverage/
+out/
+
+**/public/precache.*.*.js
+# **/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/precache.*.*.js.map
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea

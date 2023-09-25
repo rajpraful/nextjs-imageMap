@@ -1,0 +1,50 @@
+{
+  "name": "EVEC",
+  "version": "1.0.0",
+  "description": "Guide or broacher for Electic Vehicle Experience Center",
+  "main": "index.js",
+  "engines": {
+    "node": "^14.18.1",
+    "npm": "6.14.15"
+  },
+  "scripts": {
+    "dev": "next -p 3090",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zysk/evlab.git"
+  },
+  "keywords": [
+    "ev",
+    "ev-lab",
+    "EV",
+    "experience",
+    "lab",
+    "guide",
+    "broacher",
+    "offline"
+  ],
+  "author": "Praful Raj H M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zysk/evlab/issues"
+  },
+  "homepage": "https://github.com/zysk/evlab#readme",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.0",
+    "@mui/lab": "^5.0.0-alpha.76",
+    "@mui/material": "^5.6.0",
+    "@mui/styles": "^5.6.0",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-image-gallery": "^1.2.7",
+    "sass": "^1.50.0"
+  }
+}
